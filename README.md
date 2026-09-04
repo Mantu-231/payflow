@@ -22,7 +22,7 @@ Tailwind CSS
 Lucide React
 Getting Started
 
-Clone the repository and install dependencies:
+Install dependencies:
 
 npm install
 
@@ -32,37 +32,28 @@ Run the development server:
 npm run dev
 
 
-Open:
+Open the application:
 
 http://localhost:3000
 
 Project Structure
 payflow/
-│
 ├── src/
-│   │
 │   ├── app/
 │   │   ├── customers/
 │   │   │   └── page.tsx
-│   │   │
 │   │   ├── forgot-password/
 │   │   │   └── page.tsx
-│   │   │
 │   │   ├── login/
 │   │   │   └── page.tsx
-│   │   │
 │   │   ├── payments/
 │   │   │   └── page.tsx
-│   │   │
 │   │   ├── profile/
 │   │   │   └── page.tsx
-│   │   │
 │   │   ├── settings/
 │   │   │   └── page.tsx
-│   │   │
 │   │   ├── signup/
 │   │   │   └── page.tsx
-│   │   │
 │   │   ├── globals.css
 │   │   ├── layout.tsx
 │   │   ├── loading.tsx
@@ -70,7 +61,6 @@ payflow/
 │   │   └── page.tsx
 │   │
 │   └── components/
-│       │
 │       └── layout/
 │           ├── mobilemenu/
 │           ├── sidebar/
