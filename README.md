@@ -37,26 +37,51 @@ Open:
 http://localhost:3000
 
 Project Structure
-src/
-├── app/
-│   ├── customer/
-│   ├── forgot-password/
-│   ├── login/
-│   ├── payments/
-│   ├── profile/
-│   ├── settings/
-│   ├── signup/
-│   ├── globals.css
-│   ├── layout.tsx
-│   ├── loading.tsx
-│   ├── not-found.tsx
-│   └── page.tsx
+payflow/
 │
-└── components/
-    └── layout/
-        ├── mobilemenu/
-        ├── sidebar/
-        └── topbar/
+├── src/
+│   │
+│   ├── app/
+│   │   ├── customers/
+│   │   │   └── page.tsx
+│   │   │
+│   │   ├── forgot-password/
+│   │   │   └── page.tsx
+│   │   │
+│   │   ├── login/
+│   │   │   └── page.tsx
+│   │   │
+│   │   ├── payments/
+│   │   │   └── page.tsx
+│   │   │
+│   │   ├── profile/
+│   │   │   └── page.tsx
+│   │   │
+│   │   ├── settings/
+│   │   │   └── page.tsx
+│   │   │
+│   │   ├── signup/
+│   │   │   └── page.tsx
+│   │   │
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   ├── loading.tsx
+│   │   ├── not-found.tsx
+│   │   └── page.tsx
+│   │
+│   └── components/
+│       │
+│       └── layout/
+│           ├── mobilemenu/
+│           ├── sidebar/
+│           └── topbar/
+│
+├── public/
+├── package.json
+├── tsconfig.json
+├── next.config.ts
+├── postcss.config.mjs
+└── README.md
 
 Status
 
