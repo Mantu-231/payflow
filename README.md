@@ -22,7 +22,7 @@ Tailwind CSS
 Lucide React
 Getting Started
 
-Install dependencies:
+Clone the repository and install dependencies:
 
 npm install
 
@@ -32,46 +32,57 @@ Run the development server:
 npm run dev
 
 
-Open the application:
+Open:
 
 http://localhost:3000
 
 Project Structure
 payflow/
-├── src/
-│   ├── app/
-│   │   ├── customers/
-│   │   │   └── page.tsx
-│   │   ├── forgot-password/
-│   │   │   └── page.tsx
-│   │   ├── login/
-│   │   │   └── page.tsx
-│   │   ├── payments/
-│   │   │   └── page.tsx
-│   │   ├── profile/
-│   │   │   └── page.tsx
-│   │   ├── settings/
-│   │   │   └── page.tsx
-│   │   ├── signup/
-│   │   │   └── page.tsx
-│   │   ├── globals.css
-│   │   ├── layout.tsx
-│   │   ├── loading.tsx
-│   │   ├── not-found.tsx
-│   │   └── page.tsx
-│   │
-│   └── components/
-│       └── layout/
-│           ├── mobilemenu/
-│           ├── sidebar/
-│           └── topbar/
-│
-├── public/
-├── package.json
-├── tsconfig.json
-├── next.config.ts
-├── postcss.config.mjs
-└── README.md
+|
++-- src/
+|   |
+|   +-- app/
+|   |   |
+|   |   +-- customers/
+|   |   |   +-- page.tsx
+|   |   |
+|   |   +-- forgot-password/
+|   |   |   +-- page.tsx
+|   |   |
+|   |   +-- login/
+|   |   |   +-- page.tsx
+|   |   |
+|   |   +-- payments/
+|   |   |   +-- page.tsx
+|   |   |
+|   |   +-- profile/
+|   |   |   +-- page.tsx
+|   |   |
+|   |   +-- settings/
+|   |   |   +-- page.tsx
+|   |   |
+|   |   +-- signup/
+|   |   |   +-- page.tsx
+|   |   |
+|   |   +-- globals.css
+|   |   +-- layout.tsx
+|   |   +-- loading.tsx
+|   |   +-- not-found.tsx
+|   |   +-- page.tsx
+|   |
+|   +-- components/
+|       |
+|       +-- layout/
+|           +-- mobilemenu/
+|           +-- sidebar/
+|           +-- topbar/
+|
++-- public/
++-- package.json
++-- tsconfig.json
++-- next.config.ts
++-- postcss.config.mjs
++-- README.md
 
 Status
 
